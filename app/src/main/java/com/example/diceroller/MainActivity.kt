@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun rolldice() {
 
-        val RandomInt = Random.nextInt(1,6)
+        val RandomInt = Random.nextInt(1,7)
         val randomdice = when (RandomInt) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
